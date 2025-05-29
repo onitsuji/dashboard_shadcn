@@ -26,6 +26,7 @@ export default function Navbar() {
               <AvatarImage src="https://avatars.githubusercontent.com/u/203975120?v=4" />
               <AvatarFallback>JOC</AvatarFallback>
             </Avatar>
+            <span className="sr-only">Open Menu</span>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>My Account</DropdownMenuLabel>

@@ -13,6 +13,10 @@ const router = createBrowserRouter([
         index: true,
         element: <div>Hello from outlet</div>,
       },
+      {
+        path: "dashboard",
+        element: <div>Dashboard content</div>,
+      },
     ],
   },
 ]);

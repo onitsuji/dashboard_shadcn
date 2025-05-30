@@ -1,4 +1,3 @@
-import { Outlet } from "react-router";
 import Navbar from "./components/navbar";
 import AppSidebar from "@/components/app-sidebar";
 import { ThemeProvider } from "@/components/theme-provider";

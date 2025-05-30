@@ -12,8 +12,18 @@ export default function App() {
           <AppSidebar />
           <main className="w-full">
             <Navbar />
-            <div className="px-4">
-              <Outlet />
+            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-4 p-4">
+              {/* <Outlet /> */}
+              <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2">
+                test
+              </div>
+              <div className="bg-primary-foreground p-4 rounded-lg">test</div>
+              <div className="bg-primary-foreground p-4 rounded-lg">test</div>
+              <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2">
+                test
+              </div>
+              <div className="bg-primary-foreground p-4 rounded-lg">test</div>
+              <div className="bg-primary-foreground p-4 rounded-lg">test</div>
             </div>
           </main>
         </div>
